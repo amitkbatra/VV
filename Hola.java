@@ -1,5 +1,13 @@
-public class HolaMundo {
-    public static void main(String[] args) {
-        System.printf("Hola Mundo!");
+public class Main {
+    public static void main(String[] args)
+    {
+        String word1, word2;
+
+        word1 = "Hola";
+        word2 = "Mundo";
+
+        saluda(word1, word2);
     }
+
+    public static void saluda(String word1, String word2) { System.out.println(word1 + " " + word2); }
 }
