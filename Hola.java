@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args)
     {
-        String word1, word2;
+        String word1, word2, p;
 
         word1 = "Hola";
         word2 = "Mundo";
@@ -9,5 +9,7 @@ public class Main {
         saluda(word1, word2);
     }
 
-    public static void saluda(String word1, String word2) { System.out.println(word1 + " " + word2); }
+    public static void saluda(String word1, String word2, String p) {
+        System.out.println(word1 + " " + word2);
+    }
 }
